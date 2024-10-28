@@ -33,6 +33,33 @@
 </head>
 
 <body>
+    <script language="Javascript" type="text/javascript" src="./AppMeasurement.js"></script>
+    <script language="Javascript" type="text/javascript">
+        s.pagename="12344"
+        s.server="github"
+        s.prop1="India"
+        s.prop2="Pakistan"
+        s.prop3="Sri Lanka"
+        s.prop4="Nepal"
+        s.prop5="Bhutan"
+        s.hier1="Myanmar"
+
+        // Conversion Variables
+        s.campaign = ""
+        s.state = ""
+        s.zip = ""
+        s.events = "eventS"
+        s.purchaseID=""
+        s.transactionID=""
+        s.evar1="Event Serialization"
+        s.evar2=""
+        s.evar3=""
+        s.evar4=""
+
+        var s_code=s.t(); 
+        if(s_code)
+        document.write(s_code);
+    </script>
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
